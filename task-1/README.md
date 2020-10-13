@@ -11,9 +11,9 @@ For this task, we'll be creating the wireframes to understand how the app is goi
 > #### Useful Resources for this step
 > - [NinjaMock website](https://ninjamock.com)
 > - [NinjaMock video tutorials](https://ninjamock.com/videos)
-> - [Balsamiq](https://balsamiq.com)
+> - [Balsamiq website](https://balsamiq.com)
 > - [Learn to wireframe using Balsamiq](https://balsamiq.com/learn/)
-> - [Figma](https://www.figma.com)
+> - [Figma website](https://www.figma.com)
 
 Select a wireframing tool you're comfortable with and sign up to use it.
 
@@ -26,22 +26,22 @@ Look for some inspiration online on designs for a Task To-do list
 
 Verify that you have created the following Mock designs
 1. Task list display or task card display consisting of 
-    The basic details of the task
-    Buttons/Links to Edit, Delete the task
+    > - The basic details of the task
+    > - Buttons/Links to Edit, Delete the task
 
 2. Creating a new task form consisting of
-    Name -> Input type text
-    Description -> Input type text
-    AssignedTo -> Input type text
-    DueDate -> Input type text or datepicker [dd/mm/yyyy]
-    Status -> Input type dropdown [TODO, IN PROGRESS, REVIEW, DONE]
+    > - Name -> Input type text
+    > - Description -> Input type text
+    > - AssignedTo -> Input type text
+    > - DueDate -> Input type text or datepicker [dd/mm/yyyy]
+    > - Status -> Input type dropdown [TODO, IN PROGRESS, REVIEW, DONE]
 
 3. Editing a task form consisting of
-    Name -> Input type text
-    Description -> Input type text
-    AssignedTo -> Input type text
-    DueDate -> Input type text or datepicker [dd/mm/yyyy]
-    Status -> Input type dropdown [TODO, IN PROGRESS, REVIEW, DONE]
+    > - Name -> Input type text
+    > - Description -> Input type text
+    > - AssignedTo -> Input type text
+    > - DueDate -> Input type text or datepicker [dd/mm/yyyy]
+    > - Status -> Input type dropdown [TODO, IN PROGRESS, REVIEW, DONE]
 
 ## Results
 

@@ -1,13 +1,8 @@
-# Task 4: Create function to validate the task form
+# Task 4: Create a function to validate the task form
 
 ## Description
 
 Create a JavaScript function called `validateTaskForm` that verifies that the inputs inserted by the user in the task form are correct, according to these rules:
-
-- `Name` **is not empty** and **is longer than 8 characters**
-- `Description` **is not empty** and **is longer than 15 characters**
-- `AssignedTo` **is not empty** and **is longer than 8 characters**
-- `DueDate` **is not empty** and **is not in the past**
 
 ## Walkthrough
 
@@ -21,7 +16,15 @@ In this step, we'll re-organise our folder structure in preparation for the next
 
 ### Step 2:
 
-1. Create a function called `validateTaskForm`
+1. Create a function called `validateTaskForm` which will take form inputs as parameters. Create the code that checks that each value follows these rules:
+
+- `Name` **is not empty** and **is longer than 8 characters**
+- `Description` **is not empty** and **is longer than 15 characters**
+- `AssignedTo` **is not empty** and **is longer than 8 characters**
+- `DueDate` **is not empty** and **is not in the past**
+
+  Return `false` if **any value** does not validate. If **all values** validate, then return `true`.
+
 2. Create an event handler function for the form's `onSubmit` event. This will function will store variables for each of the form inputs. It will then pass these inputs to the `validateTaskForm` function for validation of the values the user entered. Refer to the final project rubric for task 4 to see what validation checks you need to make. And **don't forget** you need to prevent the default behaviour of the form also.
 
 > #### Useful Resources for this step

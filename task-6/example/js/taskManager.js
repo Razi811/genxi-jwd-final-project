@@ -7,7 +7,7 @@ class TaskManager {
     }
 
     // Create the addTask method
-    addTask(name, description, assignedTo, dueDate) {
+    addTask(name, description, assignedTo, dueDate, status) {
         const task = {
             // Increment the currentId property
             id: this.currentId++,
@@ -15,7 +15,7 @@ class TaskManager {
             description: description,
             assignedTo: assignedTo,
             dueDate: dueDate,
-            status: 'TODO'
+            status: status
         };
 
         // Push the task to the tasks property

@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a JavaScript function called `validateTaskForm` that verifies that the inputs inserted by the user in the task form are correct, according to these rules:
+Create a JavaScript function called `validateTaskForm` that verifies that the inputs inserted by the user in the task form are correct, according to the rules (see Step 2 below).
 
 ## Walkthrough
 

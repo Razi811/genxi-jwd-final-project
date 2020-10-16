@@ -14,6 +14,7 @@ newTaskForm.addEventListener('submit', (event) => {
     const newTaskDescription = document.querySelector('#newTaskDescription');
     const newTaskAssignedTo = document.querySelector('#newTaskAssignedTo');
     const newTaskDueDate = document.querySelector('#newTaskDueDate');
+    const newTaskStatus = document.querySelector('#newTaskStatus');
 
     /*
         Validation code here
@@ -24,9 +25,10 @@ newTaskForm.addEventListener('submit', (event) => {
     const description = newTaskDescription.value;
     const assignedTo = newTaskAssignedTo.value;
     const dueDate = newTaskDueDate.value;
+    const status = newTaskStatus.value;
 
     // Add the task to the task manager
-    taskManager.addTask(name, description, assignedTo, dueDate);
+    taskManager.addTask(name, description, assignedTo, dueDate, status);
 
     // Clear the form
     newTaskNameInput.value = '';
